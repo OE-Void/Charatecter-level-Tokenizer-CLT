@@ -3,8 +3,11 @@ with open("token.txt", 'r') as f:
 
 # checking some imp things
 
-vocab_size = len(set(text))
-vocab = set(text)
+vocab_size = len(set(text)) #65
+vocab = set(text) 
+'''
+Vocab: {'M', 'F', 'y', 'A', 'R', 'z', "'", 'Y', 'V', 'E', 'b', '\n', 'I', 'J', 'o', 'k', 'G', ';', 'U', '&', '!', 'L', '.', 'c', ':', 'f', 'p', 'S', 'r', '?', 'O', 's', 'H', 'N', 'D', 'n', 'x', 'e', 'a', ',', 'i', 'W', 't', 'm', 'q', 'd', 'Q', '$', 'T', 'X', 'h', '-', 'P', 'K', 'Z', 'u', 'v', '3', 'C', 'B', 'g', 'w', 'l', ' ', 'j'}
+'''
 
 # create the mapping of token and words
 
